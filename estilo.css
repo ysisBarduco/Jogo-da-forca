@@ -1,0 +1,390 @@
+*{
+    /*Reset do estilo do corpo*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #e6cfa9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.l{
+    color:#e6cfa9;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.la{
+    color:#e6cfa9;
+    text-align: center;
+    padding-right: 30px;
+}
+
+p{
+   color:#000000;
+   padding: 20px;
+   text-align: center;
+}
+
+header{
+   min-height: 85px;
+   background:#9A3F3F;
+   border-radius: 10px;
+}
+
+/*---------- Página Inicial ----------*/
+
+h1{
+    text-align: center;
+    color:#934c09;
+    font-family: 'Pacifico', cursive;
+}
+
+h2{
+    text-align: center;
+    color:#934c09;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+/*---------- Registro ----------*/
+.registro{
+    background-color: #c1856d; 
+    border-radius: 20px;
+    border: 1px solid #000;
+    text-align: center;
+
+    width: 25%;
+    height: 250px;
+    margin: 150px auto;
+    padding: 20px;
+}
+
+
+/*---------- Escolha ----------*/
+.escolha{
+    background-color: #c1856d;
+    border-radius: 20px;
+    border: 1px solid #000000 ;
+    text-align: center;
+    
+  
+    width: 25%;
+    height: 250px;
+    margin:150px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------- botões ----------*/
+.botao{
+   margin-top: 25px;
+    background-color: #c1856d;
+    color: white;                
+    width: 100px;                
+    height: 50px;                
+    border: 1px solid black ;                
+    border-radius: 10px;         
+    font-size: 14px;            
+    cursor: pointer; 
+    gap: 60px;  
+}
+
+.cabecalho{
+    background-color: #a54343;
+    color: white;                
+    width: 50px;                
+    height: 45px;                
+    border: 0.5px;                
+    border-radius: 10px;         
+    font-size: 12px;            
+    cursor: pointer;           
+}
+
+.entrar{
+    background-color: #c1856d;
+    color: white; 
+    border: 1px solid black ;                 
+    width: 68px;                
+    height: 40px;                           
+    border-radius: 10px;         
+    font-size: 12px;            
+    cursor: pointer; 
+}
+
+.entra{
+    background-color: #c1856d;
+    color: white; 
+    border: 1px solid black ;                 
+    width: 68px;                
+    height: 40px;                           
+    border-radius: 10px;         
+    font-size: 12px;            
+    cursor: pointer; 
+}
+
+.forca{
+    width: 150px;               
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    margin-right: 150px; 
+}
+
+/*---------- Página do Jogo ----------*/
+
+#pagina-jogo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#emoji-container{
+    width: 100%;
+    padding: 10px;
+    background-color: #f5e4c8;
+    text-align: center;
+}
+
+#emoji{
+    background-color: transparent;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#guess-container{
+    width: 100%;
+    max-width: none;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.guess-input{
+    padding: 3px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 3px solid #000000;
+    outline: none;
+}
+
+.correct-letter{
+    padding: 3px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: #9A3F3F;
+}
+
+#forca{
+    padding: 20px;
+    background-color: #c1856d;
+    width: 700px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#forca h2{
+    background-color: transparent;
+    padding-bottom: 10px;
+}
+
+.lista-erros{
+    background-color: transparent;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.letra-errada{
+    background-color: transparent;
+}
+
+/*---------- Ranking geral e liga ----------*/
+
+#pagina-ranking-geral{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pagina-ranking-liga{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ranking-title{
+    padding: 50px;
+    text-align: center;
+}
+
+.ranking-box{
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #f5e4c8;
+}
+
+.ranking-box:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#ranking-1{
+    background-color: #9a3f3f;
+    border:none;
+}
+
+#ranking-2{
+    background-color: #ad5809;
+    border:none;
+}
+
+#ranking-3{
+    background-color: #c1856d;
+    border:none;
+}
+
+.sair-ranking-liga{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 30px
+}
+
+/*---------- Histórico geral e da liga ----------*/
+
+#pagina-historico{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pagina-historico-liga{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.liga-informacao{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.liga-informacao p{
+    font-size: 16px;
+    text-align: start;
+    background-color: #f5e4c8;
+    border-radius: 15px;
+    margin: 10px;
+}
+.liga-informacao p:hover{
+    color: #9A3F3F;
+}
+
+.historico-title{
+    padding: 20px;
+}
+
+.historico-table{
+    padding: 10px;
+    margin: 50px;
+    border-collapse: separate;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    background-color: #f5e4c8;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.historico-table th, .historico-table td{
+    border: 1px solid #9a3f3f;
+    padding: 5px;
+}
+
+.cabecalho-historico{
+    background-color: #9A3F3F;
+    color: #e6cfa9;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.corpo-historico{
+    padding: 10px;
+    border: 1px solid #934c09;
+}
+
+.sair-historico{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 30px
+}
+
+/*---------- Pontuação Semanal ----------*/
+.pagina-semanal{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#semanal-title{
+    padding: 20px;
+}
+
+.semanal-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.semanal-container p{
+    font-size: 16px;
+    text-align: start;
+    background-color: #f5e4c8;
+    border-radius: 15px;
+    margin: 10px;
+}
+.semanal-container p:hover{
+    color: #9A3F3F;
+}
