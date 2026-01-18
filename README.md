@@ -33,3 +33,11 @@ A cada partida, o programa sorteia uma das palavras do banco de dados e o usuár
 Caso o usuário erre, o programa decrementa a pontuação e exibe a letra errada na tabela "forca". Ao atingir o limite de 10 tentativas erradas, o usuário perde e o programa inicia uma nova partida.
 Caso o usuário acerte a letra, o programa exibe as posições correspondentes na palavra secreta. Ao adivinhar todas as letras que compõem a palavra secreta, o usuário vence.
 Ao final de cada partida, o programa calcula a pontuação com base no número de tentativas erradas e envia ao banco de dados.
+
+## Ferramentas
+- Visual Studio Code (VS Code) para desenvolvimento;
+- Servidor Apache (XAMPP) para hospedagem da aplicação;
+- MySQL para criação e controle do banco de dados;
+- Git e GitLab para versionamento e armazenamento do código.
+
+
